@@ -117,10 +117,7 @@ const Section3 = () => (
                 <Card.Body className='rounded-4'>
                   <Card.Img className='Cardimg' src={network} />
                   <Card.Header className='section3cardheader'>IDEATE-CREATE-EXECUTE</Card.Header>
-                  <Card.Text className='section3cardtext' >Statistics Document Icon
-                    IDEATE-CREATE-EXECUTE
-
-                    Listen to the needs of the customer and help them with right ingredient has been our focus. From ideation to deployment we stay with customer, get it done right.</Card.Text>
+                  <Card.Text className='section3cardtext' >Market, customers, users are all of different nature, A good prototype gives better answers always. Code, No-Code we have done it and helped customers.</Card.Text>
                 </Card.Body>
               </Card>
             </div>
@@ -132,9 +129,7 @@ const Section3 = () => (
                   <Card.Img className='Cardimg' src={hass} />
                   <Card.Header className='section3cardheader'>IDEATE-CREATE-EXECUTE</Card.Header>
                   <Card.Text className='section3cardtext' >Statistics Document Icon
-                    IDEATE-CREATE-EXECUTE
-
-                    Listen to the needs of the customer and help them with right ingredient has been our focus. From ideation to deployment we stay with customer, get it done right.</Card.Text>
+                  Resource augmentation has been our offering to different businesses in last few years, teams have benefited from our resources on demand</Card.Text>
                 </Card.Body>
               </Card>
             </div>
@@ -144,7 +139,7 @@ const Section3 = () => (
               <Card className='section3card rounded-5'>
                 <Card.Body className='rounded-4'>
                   <Card.Img className='Cardimg' src={bulb} />
-                  <Card.Header className='section3cardheader'>IDEATE-CREATE-EXECUTE</Card.Header>
+                  <Card.Header className='section3cardheader text-start'>IDEATE-CREATE-EXECUTE</Card.Header>
                   <Card.Text className='section3cardtext' >Statistics Document Icon
                     Listen to the needs of the customer and help them with right ingredient has been our focus. From ideation to deployment we stay with customer, get it done right.</Card.Text>
                 </Card.Body>
