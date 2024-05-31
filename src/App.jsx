@@ -214,7 +214,7 @@ const Section4 = () => (
       <Col md="10" className='section4'>
         <Container className='section4boxt bg-white w-100 text-black'>
           <div>
-            <p>Categories we serve</p>
+            <p className='section4heading'>Categories we serve</p>
             <Row>
               <Col md="4">
                 <ul className="section4text">
