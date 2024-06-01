@@ -150,9 +150,11 @@ const Section3 = () => (
               <Card className='section3card rounded-5'>
                 <Card.Body className='rounded-4'>
                   <Card.Img className='Cardimg' src={network} />
-                  <Card.Header className='section3cardheader'>IDEATE-CREATE-EXECUTE</Card.Header>
+                  <Card.Header className='section3cardheader'>SERVICES</Card.Header>
                   <Card.Text className='section3cardtext' >
-                    Listen to the needs of the customer and help them with right ingredient has been our focus. From ideation to deployment we stay with customer, get it done right.
+                  Listen to the needs of the customers, help them with right solution has been our focus. From ideation to deployment we are with the customer
+has context menu
+                  {/* Listen to the needs of the customer and help them with right solution has been our focus. From ideation to deployment we stay with customer. */}
                   </Card.Text>
                 </Card.Body>
               </Card>
@@ -165,7 +167,7 @@ const Section3 = () => (
                   <Card.Img className='Cardimg' src={hass} />
                   <Card.Header className='section3cardheader'>PROTOTYPING</Card.Header>
                   <Card.Text className='section3cardtext' >
-                    Market, customers, users are all of different nature, A good prototype gives better answers always. Code, No-Code we have done it and helped customers.
+                  Businesses, before they scale up, need market knowledge. A well crafted prototype helps the business to know customer needs well. Lets help you
                   </Card.Text>
                 </Card.Body>
               </Card>
@@ -178,7 +180,7 @@ const Section3 = () => (
                   <Card.Img className='Cardimg' src={bulb} />
                   <Card.Header className='section3cardheader text-start'>SKILL SUPPORT</Card.Header>
                   <Card.Text className='section3cardtext' >
-                    Resource augmentation has been our offering to different businesses in last few years, teams have benefited from our resources on demand
+                  Providing developers, designers, architects, solution engineers on demand helping  technology teams for better output has been our strength
 
                   </Card.Text>
                 </Card.Body>
@@ -362,25 +364,12 @@ const Section6 = ({ inView4, myRef4 }) => (
 
         </div>
       </div>
-          </Col>
+    </Col>
   </Row>
 )
 
 const Navmenu = () => (
-  // <Navbar className='Navbar'>
-  //   <Container>
-  //     <Navbar.Brand className='text-white' href="#Section1">
-  //       <Image src={logo} width={100} />
-  //     </Navbar.Brand>
-  //     <Nav className="me-auto mb-md-3" style={{ color: "rgb(0, 191, 244)" }}>
-  //       <Nav.Link className='text-white' href="#Services">Services</Nav.Link>
-  //       <Nav.Link className='text-white' href="#Workflow">Workflow</Nav.Link>
-  //       <Nav.Link className='text-white' href="#Products">Products</Nav.Link>
-  //       <Nav.Link className='text-white' href="#ContactUs">Contact Us</Nav.Link>
-  //     </Nav>
-  //   </Container>
-  // </Navbar>
-  <Navbar className='Navbar' expand="md">
+  <Navbar className='Navbar shadow shadow-lg' expand="md">
     <Container fluid>
       <Navbar.Brand className='text-white' href="#Section1">
         <Image src={logo} width={100} />
