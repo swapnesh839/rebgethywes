@@ -124,7 +124,6 @@
     font-size: 22px;
     font-weight: 700;
 }
-
 .section3cardtext {
     color: white !important;
     align-self: start !important;
@@ -132,6 +131,25 @@
     line-height: 26px;
     font-size: 17px;
     font-weight: 400;
+}
+@media (max-width: 576px) {
+    .section3cardheader {
+        color: #1DCD8D !important;
+        border: 0;
+        align-self: start !important;
+        padding: 9px 0;
+        line-height: 22px;
+        font-size: 18px;
+        font-weight: 700;
+    }
+    .section3cardtext {
+        color: white !important;
+        align-self: start !important;
+        padding: 9px 0;
+        line-height: 26px;
+        font-size: 16px;
+        font-weight: 400;
+    }
 }
 
 .Cardimg {
@@ -162,6 +180,24 @@
     line-height: 29px;
     max-width: 900px;
     color: black;
+}
+@media screen and (min-width: 767px) and (max-width: 1162px) {
+    .section4text {
+        font-size: 13px;
+        font-weight: 400;
+        line-height: 29px;
+        max-width: 900px;
+        color: black;
+    }
+}
+@media screen and (min-width: 767px) and (max-width: 850px) {
+    .section4text {
+        font-size: 12px !important;
+        font-weight: 400 !important;
+        line-height: 29px !important;
+        max-width: 900px !important;
+        color: black;
+    }
 }
 
 .section4btn {
@@ -264,7 +300,7 @@
     font-size: 20px;
     font-weight: 700;
     line-height: 20px;
-    color: rgb(29, 205, 141);
+    color: rgb(87, 95, 92);
 }
 
 .section6text2 {

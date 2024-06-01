@@ -139,7 +139,7 @@ const Section3 = () => (
             Our Services
           </p>
           <p className='section3text'>
-            We offer services to businesses who are using software as part of their day to day business activities.  Participating as a technology partner to implement a certain tool/utility/app/solution that is needed cater business growth, handle scenarios and process both internally/externally responsible to drive the business.
+            Market, customers, users are all of different nature, A good prototype gives better answers always. Code, No-Code we have done it and helped customers.
           </p>
         </div>
       </Container>
@@ -151,7 +151,9 @@ const Section3 = () => (
                 <Card.Body className='rounded-4'>
                   <Card.Img className='Cardimg' src={network} />
                   <Card.Header className='section3cardheader'>IDEATE-CREATE-EXECUTE</Card.Header>
-                  <Card.Text className='section3cardtext' >Market, customers, users are all of different nature, A good prototype gives better answers always. Code, No-Code we have done it and helped customers.</Card.Text>
+                  <Card.Text className='section3cardtext' >
+                    Listen to the needs of the customer and help them with right ingredient has been our focus. From ideation to deployment we stay with customer, get it done right.
+                  </Card.Text>
                 </Card.Body>
               </Card>
             </div>
@@ -161,9 +163,10 @@ const Section3 = () => (
               <Card className='section3card rounded-5'>
                 <Card.Body className='rounded-4'>
                   <Card.Img className='Cardimg' src={hass} />
-                  <Card.Header className='section3cardheader'>IDEATE-CREATE-EXECUTE</Card.Header>
+                  <Card.Header className='section3cardheader'>PROTOTYPING</Card.Header>
                   <Card.Text className='section3cardtext' >
-                    Resource augmentation has been our offering to different businesses in last few years, teams have benefited from our resources on demand</Card.Text>
+                    Market, customers, users are all of different nature, A good prototype gives better answers always. Code, No-Code we have done it and helped customers.
+                  </Card.Text>
                 </Card.Body>
               </Card>
             </div>
@@ -173,9 +176,11 @@ const Section3 = () => (
               <Card className='section3card rounded-5'>
                 <Card.Body className='rounded-4'>
                   <Card.Img className='Cardimg' src={bulb} />
-                  <Card.Header className='section3cardheader text-start'>IDEATE-CREATE-EXECUTE</Card.Header>
+                  <Card.Header className='section3cardheader text-start'>SKILL SUPPORT</Card.Header>
                   <Card.Text className='section3cardtext' >
-                    Listen to the needs of the customer and help them with right ingredient has been our focus. From ideation to deployment we stay with customer, get it done right.</Card.Text>
+                    Resource augmentation has been our offering to different businesses in last few years, teams have benefited from our resources on demand
+
+                  </Card.Text>
                 </Card.Body>
               </Card>
             </div>
@@ -325,8 +330,8 @@ const Section6 = ({ inView4, myRef4 }) => (
       </Container>
     </Col>
     <Col md="6" className='d-flex'>
-      <div className='m-auto d-flex'>
-        <div className='m-auto'>
+      <div className='m-md-auto d-md-flex d-none'>
+        <div className='m-md-auto'>
           <p className='section6heading'>Contact Us</p>
           <p className='section6text1'>PHONE</p>
           <p className='section6text2'>+919886506163</p>
@@ -341,24 +346,63 @@ const Section6 = ({ inView4, myRef4 }) => (
           </div>
         </div>
       </div>
+      <div className='d-md-none d-inline w-100'>
+        <p className='section6heading text-center mb-5'>Contact Us</p>
+        <div className='d-flex justify-content-around'>
+          <div>
+            <p className='section6text1'>PHONE</p>
+            <p className='section6text2'>+919886506163</p>
+          </div>
+          <div>
+            <p className='section6text1'>EMAIL</p>
+            <p className='section6text2'>gkadkol@starlly.in</p>
+          </div>
+        </div>
+        <div className='px-4'>
+          <Container className='d-flex  justify-content-between px-5 mt-3'>
+            <div><p className='section6text1 text-center'>SOCIAL</p></div>
+            <div className='d-flex'><a className='mx-auto' href="https://www.facebook.com/people/Starlly-Solutions-Pvt-Ltd/100089368485327/?sk=about"><Facebook className='section6text2' /></a>
+              <a className='mx-auto' href='https://x.com/sayhitospectra'><Twitter className='section6text2 mx-4' /></a>
+              <a className='mx-auto' href='https://www.linkedin.com/company/starlly-solutions-pvt.-ltd./'><Linkedin className='section6text2 mx-2' /></a></div>
+
+          </Container>
+        </div>
+      </div>
     </Col>
   </Row>
 )
 
 const Navmenu = () => (
-  <Navbar className='Navbar'>
-    <Container>
+  // <Navbar className='Navbar'>
+  //   <Container>
+  //     <Navbar.Brand className='text-white' href="#Section1">
+  //       <Image src={logo} width={100} />
+  //     </Navbar.Brand>
+  //     <Nav className="me-auto mb-md-3" style={{ color: "rgb(0, 191, 244)" }}>
+  //       <Nav.Link className='text-white' href="#Services">Services</Nav.Link>
+  //       <Nav.Link className='text-white' href="#Workflow">Workflow</Nav.Link>
+  //       <Nav.Link className='text-white' href="#Products">Products</Nav.Link>
+  //       <Nav.Link className='text-white' href="#ContactUs">Contact Us</Nav.Link>
+  //     </Nav>
+  //   </Container>
+  // </Navbar>
+  <Navbar className='Navbar' expand="md">
+    <Container fluid>
       <Navbar.Brand className='text-white' href="#Section1">
         <Image src={logo} width={100} />
       </Navbar.Brand>
-      <Nav className="me-auto mb-md-3" style={{ color: "rgb(0, 191, 244)" }}>
-        <Nav.Link className='text-white' href="#Services">Services</Nav.Link>
-        <Nav.Link className='text-white' href="#Workflow">Workflow</Nav.Link>
-        <Nav.Link className='text-white' href="#Products">Products</Nav.Link>
-        <Nav.Link className='text-white' href="#ContactUs">Contact Us</Nav.Link>
-      </Nav>
+      <Navbar.Toggle aria-controls="navbar-nav" />
+      <Navbar.Collapse id="navbar-nav">
+        <Nav className="me-auto mb-md-3 text-center" style={{ color: "rgb(0, 191, 244)" }}>
+          <Nav.Link className='text-white' href="#Services">Services</Nav.Link>
+          <Nav.Link className='text-white' href="#Workflow">Workflow</Nav.Link>
+          <Nav.Link className='text-white' href="#Products">Products</Nav.Link>
+          <Nav.Link className='text-white' href="#ContactUs">Contact Us</Nav.Link>
+        </Nav>
+      </Navbar.Collapse>
     </Container>
   </Navbar>
+
 )
 
 export default App
