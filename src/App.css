@@ -23,6 +23,7 @@
     font-weight: 400;
     line-height: 24px;
     outline: none;
+    padding: 9px 15px;
     background-color: #1A2529 !important;
 }
 
@@ -251,22 +252,37 @@
         background-color: #000000 !important;
     }
 }
+
 .section6heading {
     font-size: 30px;
     font-weight: 700;
     line-height: 36px;
     text-decoration: underline;
 }
-.section6text1{
+
+.section6text1 {
     font-size: 20px;
     font-weight: 700;
     line-height: 20px;
     color: rgb(29, 205, 141);
 }
-.section6text2{
+
+.section6text2 {
     font-size: 16px;
     font-weight: 600;
     line-height: 30px;
     color: white !important;
     margin-bottom: 18px;
+}
+
+.Navbar {
+    position: sticky;
+    top: 0;
+    width: 100% !important;
+    z-index: 9000;
+    background-color: #0d654384;
+    /* background-color: rgba(66, 119, 137, 0.6); */
+    
+    text-shadow: 1px 1px 1px rgb(35, 34, 34);
+    backdrop-filter: blur(6px);
 }
