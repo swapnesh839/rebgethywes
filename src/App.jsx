@@ -334,7 +334,7 @@ const Section6 = ({ inView4, myRef4 }) => (
         <div className='m-md-auto'>
           <p className='section6heading'>Contact Us</p>
           <p className='section6text1'>PHONE</p>
-          <p className='section6text2'>+919886506163</p>
+          <p className='section6text2'>+91 9886506163</p>
           <p className='section6text1'>EMAIL</p>
           <p className='section6text2'>gkadkol@starlly.in</p>
           <p className='section6text1'>SOCIAL</p>
@@ -346,29 +346,23 @@ const Section6 = ({ inView4, myRef4 }) => (
           </div>
         </div>
       </div>
-      <div className='d-md-none d-inline w-100'>
-        <p className='section6heading text-center mb-5'>Contact Us</p>
-        <div className='d-flex justify-content-around'>
-          <div>
-            <p className='section6text1'>PHONE</p>
-            <p className='section6text2'>+919886506163</p>
-          </div>
-          <div>
-            <p className='section6text1'>EMAIL</p>
-            <p className='section6text2'>gkadkol@starlly.in</p>
-          </div>
+      <div className='m-md-auto d-md-none d-flex w-100 justify-content-evenly'>
+        <div className=''>
+          <p className='section6heading'>Contact Us</p>
+          <p className='section6text1'>PHONE</p>
+          <p className='section6text2'>+91 9886506163</p>
+          <p className='section6text1'>EMAIL</p>
+          <p className='section6text2'>gkadkol@starlly.in</p>
         </div>
-        <div className='px-4'>
-          <Container className='d-flex  justify-content-between px-5 mt-3'>
-            <div><p className='section6text1 text-center'>SOCIAL</p></div>
-            <div className='d-flex'><a className='mx-auto' href="https://www.facebook.com/people/Starlly-Solutions-Pvt-Ltd/100089368485327/?sk=about"><Facebook className='section6text2' /></a>
-              <a className='mx-auto' href='https://x.com/sayhitospectra'><Twitter className='section6text2 mx-4' /></a>
-              <a className='mx-auto' href='https://www.linkedin.com/company/starlly-solutions-pvt.-ltd./'><Linkedin className='section6text2 mx-2' /></a></div>
+        <div className='pt-5'>
+          <p className='section6text1'>SOCIAL</p>
+          <a href="https://www.facebook.com/people/Starlly-Solutions-Pvt-Ltd/100089368485327/?sk=about"><Facebook className='section6text2' /></a>
+          <a href='https://x.com/sayhitospectra'><Twitter className='section6text2 mx-4' /></a>
+          <a href='https://www.linkedin.com/company/starlly-solutions-pvt.-ltd./'><Linkedin className='section6text2 mx-2' /></a>
 
-          </Container>
         </div>
       </div>
-    </Col>
+          </Col>
   </Row>
 )
 
