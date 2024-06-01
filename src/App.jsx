@@ -387,7 +387,7 @@ const Navmenu = () => (
       </Navbar.Brand>
       <Navbar.Toggle aria-controls="navbar-nav" />
       <Navbar.Collapse id="navbar-nav">
-        <Nav className="me-auto mb-md-3 text-center" style={{ color: "rgb(0, 191, 244)" }}>
+        <Nav className="me-auto mb-md-2 text-center" style={{ color: "rgb(0, 191, 244)" }}>
           <Nav.Link className='text-white' href="#Services">Services</Nav.Link>
           <Nav.Link className='text-white' href="#Workflow">Workflow</Nav.Link>
           <Nav.Link className='text-white' href="#Products">Products</Nav.Link>

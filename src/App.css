@@ -112,6 +112,7 @@
 
 .section3card {
     /* border: 10px solid red !important; */
+    min-height: 300px;
     border: 0px solid red !important;
 }
 
@@ -129,7 +130,7 @@
     align-self: start !important;
     padding: 9px 0;
     line-height: 26px;
-    font-size: 17px;
+    font-size: 16px;
     font-weight: 400;
 }
 @media (max-width: 576px) {
@@ -317,8 +318,6 @@
     width: 100% !important;
     z-index: 9000;
     background-color: #0d654384;
-    /* background-color: rgba(66, 119, 137, 0.6); */
-    
     text-shadow: 1px 1px 1px rgb(35, 34, 34);
     backdrop-filter: blur(6px);
 }
