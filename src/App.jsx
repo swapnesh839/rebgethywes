@@ -71,12 +71,12 @@ const Section1 = ({ inView1, myRef1 = true }) => {
       <Col md="6" className="text-white d-flex p-5" style={{ backgroundColor: "#1AC784" }}>
         <div className='m-auto p-md-5'>
           <p className='section1heading'>
-            Reliable technology partner
-            {/* Use the right data infra layer for your business */}
+            {/* Reliable technology partner */}
+            Use the right data infra layer for your business
           </p>
-          <p className='section1text my-5'>
+          <p className='section1text'>
             {/* Your partner in business excellence */}
-            Build a customised approach in handling analytics/workflow automation/ data representation essential for your business, by availing our services
+            Build a customised approach in handling analytics/workflow automation/data representation essential for your business, by availing our services
           </p>
           <a target="_blank" href='https://starllysolutions-my.sharepoint.com/:p:/g/personal/gkadkol_starlly_in/Efa5tFw7yShdtbRRqNCyIfYBeu2RmlFjHhlZvO-y_9U0Ug?e=N4NHGF' className='section1btn rounded-5 text-white text-decoration-underline'>LEARN MORE</a>
         </div>
