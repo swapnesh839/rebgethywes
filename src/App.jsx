@@ -76,7 +76,7 @@ const Section1 = ({ inView1, myRef1 = true }) => {
           <p className='section1text my-5'>
             Your partner in business excellence
           </p>
-          <a href='https://starllysolutions-my.sharepoint.com/:p:/g/personal/gkadkol_starlly_in/Efa5tFw7yShdtbRRqNCyIfYBeu2RmlFjHhlZvO-y_9U0Ug?e=N4NHGF' className='section1btn rounded-5 text-white text-decoration-underline'>LEARN MORE</a>
+          <a target="_blank" href='https://starllysolutions-my.sharepoint.com/:p:/g/personal/gkadkol_starlly_in/Efa5tFw7yShdtbRRqNCyIfYBeu2RmlFjHhlZvO-y_9U0Ug?e=N4NHGF' className='section1btn rounded-5 text-white text-decoration-underline'>LEARN MORE</a>
         </div>
       </Col>
       <Col md="6"
@@ -280,7 +280,7 @@ const Section4 = ({ inView3, myRef3 }) => (
         </Container>
       </Col>
       <Col md="2" className='d-flex mt-4'>
-        <a href='https://starllysolutions-my.sharepoint.com/:p:/g/personal/gkadkol_starlly_in/EcO0NXP5dGpWDmPEYmodtG4BnvIW9gxIenTd041ZQt_YjQ?e=SDbApz' className='section4btn py-2 rounded-5 text-white'>CHECK</a>
+        <a target="_blank" href='https://starllysolutions-my.sharepoint.com/:p:/g/personal/gkadkol_starlly_in/EcO0NXP5dGpWDmPEYmodtG4BnvIW9gxIenTd041ZQt_YjQ?e=SDbApz' className='section4btn py-2 rounded-5 text-white'>CHECK</a>
       </Col>
     </Row>
   </Row>
@@ -297,7 +297,7 @@ const Section5 = () => (
           <p className='section5heading2'>Spectra</p>
           <p className='section5text'>Simple plug-n-play solution to monitor your machines remotely in real-time, send alerts to the right team members</p>
           <div className="d-flex mt-3">
-            <a href='http://spectra.starllysolutions.com/' className='section5btn rounded-5 py-3 text-white px-4'>LEARN MORE</a>
+            <a target="_blank" href='http://spectra.starllysolutions.com/' className='section5btn rounded-5 py-3 text-white px-4'>LEARN MORE</a>
           </div>
         </div>
       </Col>
@@ -306,7 +306,7 @@ const Section5 = () => (
           <p className='section5heading2'>Servy</p>
           <p className='section5text'>Servy helps you manage and streamline your service pipeline, helping you track business interactions efficiently</p>
           <div className="d-flex mt-3">
-            <a href='http://servy.starlly.in/' className='section5btn rounded-5 py-3 text-white px-4'>LEARN MORE</a>
+            <a target="_blank" href='http://servy.starlly.in/' className='section5btn rounded-5 py-3 text-white px-4'>LEARN MORE</a>
           </div>
         </div>
       </Col>
@@ -341,9 +341,9 @@ const Section6 = ({ inView4, myRef4 }) => (
           <p className='section6text2'>gkadkol@starlly.in</p>
           <p className='section6text1'>SOCIAL</p>
           <div>
-            <a href="https://www.facebook.com/people/Starlly-Solutions-Pvt-Ltd/100089368485327/?sk=about"><Facebook className='section6text2' /></a>
-            <a href='https://x.com/sayhitospectra'><Twitter className='section6text2 mx-4' /></a>
-            <a href='https://www.linkedin.com/company/starlly-solutions-pvt.-ltd./'><Linkedin className='section6text2 mx-2' /></a>
+            <a target="_blank" href="https://www.facebook.com/people/Starlly-Solutions-Pvt-Ltd/100089368485327/?sk=about"><Facebook className='section6text2' /></a>
+            <a target="_blank" href='https://x.com/sayhitospectra'><Twitter className='section6text2 mx-4' /></a>
+            <a target="_blank" href='https://www.linkedin.com/company/starlly-solutions-pvt.-ltd./'><Linkedin className='section6text2 mx-2' /></a>
 
           </div>
         </div>
@@ -358,9 +358,9 @@ const Section6 = ({ inView4, myRef4 }) => (
         </div>
         <div className='pt-5'>
           <p className='section6text1'>SOCIAL</p>
-          <a href="https://www.facebook.com/people/Starlly-Solutions-Pvt-Ltd/100089368485327/?sk=about"><Facebook className='section6text2' /></a>
-          <a href='https://x.com/sayhitospectra'><Twitter className='section6text2 mx-4' /></a>
-          <a href='https://www.linkedin.com/company/starlly-solutions-pvt.-ltd./'><Linkedin className='section6text2 mx-2' /></a>
+          <a target="_blank" href="https://www.facebook.com/people/Starlly-Solutions-Pvt-Ltd/100089368485327/?sk=about"><Facebook className='section6text2' /></a>
+          <a target="_blank" href='https://x.com/sayhitospectra'><Twitter className='section6text2 mx-4' /></a>
+          <a target="_blank" href='https://www.linkedin.com/company/starlly-solutions-pvt.-ltd./'><Linkedin className='section6text2 mx-2' /></a>
 
         </div>
       </div>
