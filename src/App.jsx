@@ -72,9 +72,11 @@ const Section1 = ({ inView1, myRef1 = true }) => {
         <div className='m-auto p-md-5'>
           <p className='section1heading'>
             Reliable technology partner
+            {/* Use the right data infra layer for your business */}
           </p>
           <p className='section1text my-5'>
-            Your partner in business excellence
+            {/* Your partner in business excellence */}
+            Build a customised approach in handling analytics/workflow automation/ data representation essential for your business, by availing our services
           </p>
           <a target="_blank" href='https://starllysolutions-my.sharepoint.com/:p:/g/personal/gkadkol_starlly_in/Efa5tFw7yShdtbRRqNCyIfYBeu2RmlFjHhlZvO-y_9U0Ug?e=N4NHGF' className='section1btn rounded-5 text-white text-decoration-underline'>LEARN MORE</a>
         </div>
@@ -152,9 +154,9 @@ const Section3 = () => (
                   <Card.Img className='Cardimg' src={network} />
                   <Card.Header className='section3cardheader'>SERVICES</Card.Header>
                   <Card.Text className='section3cardtext' >
-                  Listen to the needs of the customers, help them with right solution has been our focus. From ideation to deployment we are with the customer
-has context menu
-                  {/* Listen to the needs of the customer and help them with right solution has been our focus. From ideation to deployment we stay with customer. */}
+                    Listen to the needs of the customers, help them with right solution has been our focus. From ideation to deployment we are with the customer
+                    has context menu
+                    {/* Listen to the needs of the customer and help them with right solution has been our focus. From ideation to deployment we stay with customer. */}
                   </Card.Text>
                 </Card.Body>
               </Card>
@@ -167,7 +169,7 @@ has context menu
                   <Card.Img className='Cardimg' src={hass} />
                   <Card.Header className='section3cardheader'>PROTOTYPING</Card.Header>
                   <Card.Text className='section3cardtext' >
-                  Businesses, before they scale up, need market knowledge. A well crafted prototype helps the business to know customer needs well. Lets help you
+                    Businesses, before they scale up, need market knowledge. A well crafted prototype helps the business to know customer needs well. Lets help you
                   </Card.Text>
                 </Card.Body>
               </Card>
@@ -180,7 +182,7 @@ has context menu
                   <Card.Img className='Cardimg' src={bulb} />
                   <Card.Header className='section3cardheader text-start'>SKILL SUPPORT</Card.Header>
                   <Card.Text className='section3cardtext' >
-                  Providing developers, designers, architects, solution engineers on demand helping  technology teams for better output has been our strength
+                    Providing developers, designers, architects, solution engineers on demand helping  technology teams for better output has been our strength
 
                   </Card.Text>
                 </Card.Body>
